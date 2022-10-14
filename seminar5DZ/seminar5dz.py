@@ -157,3 +157,4 @@ with open('file_decode.txt', 'w') as file:
 print('Decoded string: \t' + decoded_string)
 print('Encoded string: \t' + rle_encode(decoded_string))
 print(f'Compress ratio: \t{round(len(decoded_string) / len(encoded_string), 1)}')
+
